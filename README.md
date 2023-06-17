@@ -1,4 +1,10 @@
-Hi, I’m @devKarin.
+<style>
+  h1 {
+    color: crimson;
+  }
+</style>
+
+# Hi, I’m @devKarin.
 - I'm a frontend developer with potential capabilities for fullstack development.
 - I'm currently working on a startup idea. I hope to give more information on that very soon.
 - My recent workexperience was as a frontend developer intern in a company developing **eCommerce solutions**.
