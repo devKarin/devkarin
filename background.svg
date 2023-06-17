@@ -1,0 +1,32 @@
+<svg fill="none" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                * {
+                margin: 0;
+                padding: 0;
+                }
+
+                body {
+                background-color: rgb(255, 204, 255);
+                color: rgb(0, 51, 102);
+                animation-name: from-blue-to-pink;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                }
+
+                @keyframes from-blue-to-pink {
+                0% {background-color: rgb(153, 204, 255);}
+                25% {background-color: rgb(255, 204, 255);}
+                50% {background-color: rgb(255, 204, 255);}
+                100% {background-color: rgb(153, 204, 255);}
+                }
+                h1 {
+                color: crimson;
+                }
+            </style>
+            <h2>Hello</h2>
+        </div>
+    </foreignObject>
+</svg>

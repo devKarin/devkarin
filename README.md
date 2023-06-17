@@ -1,8 +1,7 @@
-<style>
-  h1 {
-    color: crimson;
-  }
-</style>
+<div style="width: 100%;">
+  <img src="[def]" style="width: 100%;" alt="Background image.">
+</div>
+
 
 # Hi, I’m @devKarin.
 - I'm a frontend developer with potential capabilities for fullstack development.
@@ -12,3 +11,6 @@
 - I'm interested in web development and creating special applications.
 - Besides main web development tools my stack currently also holds **React.js, Svelte, Node.js, MongoDB**.
 - Recently I restarted learning **Python**.
+
+
+[def]: /background.svg
