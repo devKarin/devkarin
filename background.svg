@@ -1,5 +1,5 @@
-<svg fill="none" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg fill="none" viewBox="0 0 800 450" width="800" height="450"
+    xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
@@ -8,25 +8,282 @@
                 padding: 0;
                 }
 
-                body {
+                h1, h2, p, ul {
+                color: rgb(255, 255, 179);
+                font-family: "Courier New", monospace;
+                }
+
+                .stars-wrapper {
                 background-color: rgb(255, 204, 255);
                 color: rgb(0, 51, 102);
-                animation-name: from-blue-to-pink;
-                animation-duration: 20s;
+                animation-name: change-backround-color;
+                animation-duration: 12s;
                 animation-iteration-count: infinite;
                 }
 
-                @keyframes from-blue-to-pink {
-                0% {background-color: rgb(153, 204, 255);}
-                25% {background-color: rgb(255, 204, 255);}
-                50% {background-color: rgb(255, 204, 255);}
-                100% {background-color: rgb(153, 204, 255);}
+                @keyframes change-backround-color {
+                0% {background-color: rgb(20, 20, 31);}
+                25% {background-color: rgb(10, 20, 41);}
+                50% {background-color: rgb(26, 0, 26);}
+                100% {background-color: rgb(20, 20, 31);}
                 }
-                h1 {
-                color: crimson;
+
+                @keyframes twinkle {
+                0% {
+                opacity: 0;
+                }
+                50% {
+                opacity: 1;
+                }
+                100% {
+                opacity: 0;
+                }
+                }
+
+                .twinkle {
+                animation-name: twinkle;
+                animation-iteration-count: infinite;
+                }
+
+                .duration1 {
+                animation-duration: 3s;
+                }
+
+                .duration5 {
+                animation-duration: 5s;
+                }
+
+                .duration7 {
+                animation-duration: 7s;
+                }
+
+                .duration9 {
+                animation-duration: 9s;
+                }
+
+                .duration11 {
+                animation-duration: 11s;
+                }
+
+                .duration12 {
+                animation-duration: 12s;
+                }
+
+                .delay1 {
+                animation-delay: 1s;
+                }
+
+                .delay2 {
+                animation-delay: 5s;
+                }
+
+                .star {
+                border: 0.1px solid transparent;
+                border-radius: 50%;
+                background-color: yellow;
+                position: absolute;
+                }
+
+                .small {
+                width: 0.5px;
+                height: 0.5px;
+                }
+
+                .medium {
+                width: 1px;
+                height: 1px;
+                }
+
+                .large {
+                width: 2px;
+                height: 2px;
+                }
+
+                .stars-wrapper {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                z-index: -1;
+                }
+
+                .pink {
+                background-color: rgb(153, 31, 0);
+                }
+                .blue {
+                background-color: rgb(0, 102, 255);
+                }
+                .purple {
+                background-color: rgb(255, 255, 255)/*rgb(102, 0, 204)*/;
+                }
+                .lime {
+                background-color: rgb(255, 255, 255)/*rgb(0, 255, 0)*/;
+                }
+                .yellow {
+                background-color: rgb(255, 255, 255)/*rgb(255, 255, 102)*/;
+                }
+                .red {
+                background-color: rgb(255, 255, 255)/*rgb(255, 80, 80)*/;
+                }
+                .aqua {
+                background-color: rgb(255, 255, 255)/*rgb(102, 255, 255)*/;
+                }
+                .blue2 {
+                background-color: rgb(255, 255, 255)/*rgb(0, 0, 204)*/;
+                }
+                .orange {
+                background-color: rgb(255, 255, 255)/*rgb(255, 153, 0)*/;
+                }
+
+                .text-wrapper {
+                position: absolute;
+                top: 10%;
+                left: 10%;
+                right: 10%;
+                bottom: 10%;
                 }
             </style>
-            <h2>Hello</h2>
+            <div
+                class="stars-wrapper">
+                <div class="star twinkle delay1 duration1 small pink" style="top: 0%; left: 0%;"></div>
+                <div class="star twinkle delay2 duration5 small blue" style="top: 60%; left: 22%;"></div>
+                <div class="star twinkle delay1 duration7 small purple" style="top: 84%; left: 38%;"></div>
+                <div class="star twinkle delay2 duration9 small lime" style="top: 56%; left: 70%;"></div>
+                <div class="star twinkle delay1 duration11 small yellow"
+                    style="top: 31%; left: 37%;"></div>
+                <div class="star twinkle delay2 duration12 small red" style="top: 89%; left: 3%;"></div>
+                <div class="star twinkle delay1 duration1 small aqua" style="top: 37%; left: 25%;"></div>
+                <div class="star twinkle delay2 duration5 small blue2" style="top: 3%; left: 77%;"></div>
+                <div class="star twinkle delay1 duration7 small orange" style="top: 25%; left: 34%;"></div>
+                <div class="star twinkle delay2 duration9 small pink" style="top: 94%; left: 15%;"></div>
+                <div class="star twinkle delay1 duration11 small blue" style="top: 31%; left: 70%;"></div>
+                <div class="star twinkle delay2 duration12 small purple"
+                    style="top: 31%; left: 37%;"></div>
+                <div class="star twinkle delay1 duration1 small lime" style="top: 11%; left: 97%;"></div>
+                <div class="star twinkle delay2 duration5 small yellow" style="top: 95%; left: 84%;"></div>
+                <div class="star twinkle delay1 duration7 small red" style="top: 50%; left: 0%;"></div>
+                <div class="star twinkle delay2 duration9 small aqua" style="top: 44%; left: 83%;"></div>
+                <div class="star twinkle delay1 duration11 small blue2" style="top: 2%; left: 6%;"></div>
+                <div class="star twinkle delay2 duration12 small orange"
+                    style="top: 89%; left: 68%;"></div>
+                <div class="star twinkle delay1 duration1 small pink" style="top: 95%; left: 66%;"></div>
+                <div class="star twinkle delay2 duration5 small blue" style="top: 89%; left: 53%;"></div>
+                <div class="star twinkle delay1 duration7 small purple" style="top: 33%; left: 67%;"></div>
+                <div class="star twinkle delay2 duration9 small lime" style="top: 36%; left: 13%;"></div>
+                <div class="star twinkle delay1 duration11 small yellow"
+                    style="top: 88%; left: 26%;"></div>
+                <div class="star twinkle delay2 duration12 small red" style="top: 17%; left: 98%;"></div>
+                <div class="star twinkle delay1 duration1 small aqua" style="top: 23%; left: 20%;"></div>
+                <div class="star twinkle delay2 duration5 small blue2" style="top: 55%; left: 49%;"></div>
+                <div class="star twinkle delay1 duration7 small orange" style="top: 16%; left: 68%;"></div>
+                <div class="star twinkle delay2 duration9 small pink" style="top: 26%; left: 83%;"></div>
+                <div class="star twinkle delay1 duration11 small blue" style="top: 78%; left: 11%;"></div>
+                <div class="star twinkle delay2 duration12 small purple"
+                    style="top: 75%; left: 95%;"></div>
+                <div class="star twinkle delay1 duration1 medium lime" style="top: 77%; left: 28%;"></div>
+                <div class="star twinkle delay2 duration5 medium yellow"
+                    style="top: 69%; left: 55%;"></div>
+                <div class="star twinkle delay1 duration7 medium red" style="top: 16%; left: 38%;"></div>
+                <div class="star twinkle delay2 duration9 medium aqua" style="top: 91%; left: 18%;"></div>
+                <div class="star twinkle delay1 duration11 medium blue2" style="top: 3%; left: 87%;"></div>
+                <div class="star twinkle delay2 duration12 medium orange"
+                    style="top: 40%; left: 85%;"></div>
+                <div class="star twinkle delay1 duration1 medium pink" style="top: 5%; left: 47%;"></div>
+                <div class="star twinkle delay2 duration5 medium blue" style="top: 25%; left: 61%;"></div>
+                <div class="star twinkle delay1 duration7 medium purple"
+                    style="top: 51%; left: 69%;"></div>
+                <div class="star twinkle delay2 duration9 medium lime" style="top: 56%; left: 49%;"></div>
+                <div class="star twinkle delay1 duration11 medium yellow"
+                    style="top: 50%; left: 33%;"></div>
+                <div class="star twinkle delay2 duration12 medium red" style="top: 21%; left: 79%;"></div>
+                <div class="star twinkle delay1 duration1 medium aqua" style="top: 23%; left: 26%;"></div>
+                <div class="star twinkle delay2 duration5 medium blue2" style="top: 91%; left: 66%;"></div>
+                <div class="star twinkle delay1 duration7 medium orange"
+                    style="top: 41%; left: 83%;"></div>
+                <div class="star twinkle delay2 duration9 medium pink" style="top: 15%; left: 61%;"></div>
+                <div class="star twinkle delay1 duration11 medium blue" style="top: 31%; left: 21%;"></div>
+                <div class="star twinkle delay2 duration12 medium purple"
+                    style="top: 72%; left: 96%;"></div>
+                <div class="star twinkle delay1 duration1 medium lime" style="top: 7%; left: 21%;"></div>
+                <div class="star twinkle delay2 duration5 medium yellow"
+                    style="top: 63%; left: 38%;"></div>
+                <div class="star twinkle delay1 duration7 medium red" style="top: 22%; left: 66%;"></div>
+                <div class="star twinkle delay2 duration9 medium aqua" style="top: 62%; left: 80%;"></div>
+                <div class="star twinkle delay1 duration11 medium blue2"
+                    style="top: 37%; left: 51%;"></div>
+                <div class="star twinkle delay2 duration12 medium orange"
+                    style="top: 38%; left: 91%;"></div>
+                <div class="star twinkle delay1 duration1 medium pink" style="top: 16%; left: 15%;"></div>
+                <div class="star twinkle delay2 duration5 medium blue" style="top: 30%; left: 90%;"></div>
+                <div class="star twinkle delay1 duration7 medium purple" style="top: 54%; left: 9%;"></div>
+                <div class="star twinkle delay2 duration9 medium lime" style="top: 52%; left: 44%;"></div>
+                <div class="star twinkle delay1 duration11 medium yellow"
+                    style="top: 93%; left: 0%;"></div>
+                <div class="star twinkle delay2 duration12 medium red" style="top: 11%; left: 32%;"></div>
+                <div class="star twinkle delay1 duration1 large aqua" style="top: 49%; left: 67%;"></div>
+                <div class="star twinkle delay2 duration5 large blue2" style="top: 23%; left: 88%;"></div>
+                <div class="star twinkle delay1 duration7 large orange" style="top: 56%; left: 51%;"></div>
+                <div class="star twinkle delay2 duration9 large pink" style="top: 57%; left: 23%;"></div>
+                <div class="star twinkle delay1 duration11 large blue" style="top: 72%; left: 12%;"></div>
+                <div class="star twinkle delay2 duration12 large purple"
+                    style="top: 10%; left: 76%;"></div>
+                <div class="star twinkle delay1 duration1 large lime" style="top: 9%; left: 72%;"></div>
+                <div class="star twinkle delay2 duration5 large yellow" style="top: 93%; left: 21%;"></div>
+                <div class="star twinkle delay1 duration7 large red" style="top: 65%; left: 74%;"></div>
+                <div class="star twinkle delay2 duration9 large aqua" style="top: 92%; left: 29%;"></div>
+                <div class="star twinkle delay1 duration11 large blue2" style="top: 28%; left: 96%;"></div>
+                <div class="star twinkle delay2 duration12 large orange"
+                    style="top: 73%; left: 41%;"></div>
+                <div class="star twinkle delay1 duration1 large pink" style="top: 18%; left: 21%;"></div>
+                <div class="star twinkle delay2 duration5 large blue" style="top: 69%; left: 94%;"></div>
+                <div class="star twinkle delay1 duration7 large purple" style="top: 51%; left: 83%;"></div>
+                <div class="star twinkle delay2 duration9 large lime" style="top: 49%; left: 83%;"></div>
+                <div class="star twinkle delay1 duration11 large yellow"
+                    style="top: 91%; left: 99%;"></div>
+                <div class="star twinkle delay2 duration12 large red" style="top: 5%; left: 19%;"></div>
+                <div class="star twinkle delay1 duration1 large aqua" style="top: 6%; left: 67%;"></div>
+                <div class="star twinkle delay2 duration5 large blue2" style="top: 14%; left: 89%;"></div>
+                <div class="star twinkle delay1 duration7 large orange" style="top: 18%; left: 20%;"></div>
+                <div class="star twinkle delay2 duration9 large pink" style="top: 53%; left: 63%;"></div>
+                <div class="star twinkle delay1 duration11 large blue" style="top: 80%; left: 62%;"></div>
+                <div class="star twinkle delay2 duration12 large purple"
+                    style="top: 72%; left: 96%;"></div>
+                <div class="star twinkle delay1 duration1 large lime" style="top: 9%; left: 13%;"></div>
+                <div class="star twinkle delay2 duration5 large yellow" style="top: 61%; left: 74%;"></div>
+                <div class="star twinkle delay1 duration7 large red" style="top: 26%; left: 56%;"></div>
+                <div class="star twinkle delay2 duration9 large aqua" style="top: 50%; left: 62%;"></div>
+                <div class="star twinkle delay1 duration11 large blue2" style="top: 97%; left: 53%;"></div>
+                <div class="star twinkle delay2 duration12 large orange"
+                    style="top: 41%; left: 68%;"></div>
+            </div>
+            <div class="text-wrapper">
+                <h1>Welcome to @devKarin's GitHub</h1>
+
+                <p>You might have already figured that I could be a frontend developer. Well, that's
+                    true, but what I actually like is building projects from front to back.
+                </p>
+                <p>I have to say that I prefer to keep most of my projects private until they hatch.</p>
+                <br />
+                <ul>
+                    <li>I'm currently working on a startup idea. I hope to give more information on
+                        that
+                        very soon.
+                    </li>
+                    <li> Besides basic web development tools my stack currently also holds <strong>Python,
+                        React.js, Next.js, Svelte, Node.js, MongoDB</strong>. </li>
+                </ul>
+                <br />
+
+                <h2>Some big no-no's for me:</h2>
+                <ul>
+                    <li>
+                        Mandatory office days with social awkwardness and me hiding behind the desk
+                        from
+                        them and getting no work done even the day after that.
+                    </li>
+                    <li>Playing. I don't play.</li>
+                </ul>
+                <br />
+            </div>
         </div>
     </foreignObject>
 </svg>
