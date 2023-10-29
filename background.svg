@@ -29,10 +29,10 @@
                 }
 
                 @keyframes change-backround-color {
-                0% {background-color: rgb(26, 26, 26);}
+                0% {background-color: rgb(13, 17, 23);}
                 25% {background-color: rgb(20, 20, 31);}
                 50% {background-color: rgb(10, 20, 41);}
-                100% {background-color: rgb(26, 26, 26);}
+                100% {background-color: rgb(13, 17, 23);}
                 }
 
                 @keyframes twinkle {
@@ -289,7 +289,7 @@
                 <ul>
                     <li>Mandatory social "bonding" and team events.</li>
                     <li>Playing.</li>
-                    <li>Working with Magento 2, WordPress or PHP.</li>
+                    <li>Working with Magento, WordPress or PHP.</li>
                     <li>Dishonesty.</li>
                 </ul>
                 <br />
