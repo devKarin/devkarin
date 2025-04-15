@@ -270,16 +270,18 @@
                     <li>I prefer to keep most of my projects private until they hatch.</li>
                     <li>Currently working with: <strong>
                             <ul>
-                                <li>Next.js</li>
-                                <li>React.js</li>
-                                <li>Jekyll</li>
-                                <li>Python</li>
-                                <li>Google API-s</li>
+                                <li>TypeScript</li>
+                                <li>MapLibre</li>
+                                <li>Mapbox</li>
+                                <li>Nx</li>
+                                <li>Webpack</li>
+                                <li>Docker</li>
+                                <li>Nginx</li>
                             </ul>
                         </strong></li>
                     <li>
-                        <strong>I have also worked with: Node.js, ejs, SQLite, Magento 2, SvelteKit,
-                            MongoDB.
+                        <strong>I have also worked with: PHP, Next.js, React.js, Jekyll, Python, Google API-s, Node.js, ejs, SQLite, Magento 2, SvelteKit,
+                            MongoDB, PostgreSQL, MySQL, WordPress.
                         </strong>
                     </li>
                 </ul>
